@@ -4,10 +4,10 @@ import { Link } from "react-router";
 const FooterCom=()=>{
     return(
         <footer className="w-[88%] m-auto pt-4">
-            <div className="flex items-center justify-evenly py-4 border-b-2 border-white">
+            <div className="flex items-center justify-between py-4 border-b-2 border-white">
                 <div >
                     <img src={logo} alt="" className="w-[70px]"/>
-                    <p className="w-[40%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspeates inventore a possimus, repellendus id tempora doloremque sapiente.</p>
+                    <p className="w-[300px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspeates inventore a possimus, repellendus id tempora doloremque sapiente.</p>
                 </div>
                 <div className="flex gap-4 justify-between">
                     <ul type="none" className="inline-block">
@@ -41,7 +41,7 @@ const FooterCom=()=>{
                     <ul type="none">
                         <h1 className="py-6 text-3xl">Address</h1>
                         <li>
-                            <p>2011st, Kok Kleang, Sen Sok, Phnom Penh</p>
+                            <p>2011st, Kok Kleang, <br /> Sen Sok, Phnom Penh</p>
                         </li>
                     </ul>
                 </div>
